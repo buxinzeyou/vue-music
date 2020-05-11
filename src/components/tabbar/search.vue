@@ -34,7 +34,7 @@
     <div class="recent" v-if="flag3">
       <p>最近搜索</p>
       <ul>
-        <li @click="(content=item.recent)" v-for="(item, index) in recent.reverse()" :key="index"><span class="mui-icon mui-icon-refreshempty" ></span>{{item.recent}}</li>
+        <li @click="(content=item.recent)" v-for="(item, index) in recent" :key="index"><span class="mui-icon mui-icon-refreshempty" ></span>{{item.recent}}</li>
       </ul>
     </div>
   </div>
