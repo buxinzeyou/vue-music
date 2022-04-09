@@ -13,7 +13,7 @@
   "dependencies": {
     "jquery": "^3.4.1",
     "mint-ui": "^2.2.13",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "router-loader": "^0.0.0",
     "vue": "^2.6.11",
     "vue-lyric-scroll": "^1.0.5",
